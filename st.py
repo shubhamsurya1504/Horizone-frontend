@@ -1,6 +1,11 @@
 import chainlit as cl
 import requests
 import asyncio
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # API Endpoints
 # API Endpoints from environment variables
