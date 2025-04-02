@@ -4,9 +4,9 @@ import asyncio
 
 # API Endpoints
 # API Endpoints from environment variables
-API_URL = os.environ.get("API_URL", "http://127.0.0.1:8000/query/")
-HISTORY_URL = os.environ.get("HISTORY_URL", "http://127.0.0.1:8000/history/")
-CLEAR_HISTORY_URL = os.environ.get("CLEAR_HISTORY_URL", "http://127.0.0.1:8000/clear_history/")
+API_URL = os.environ.get("API_URL", "https://horizone-backend-6.onrender.com/query/")
+HISTORY_URL = os.environ.get("HISTORY_URL", "https://horizone-backend-6.onrender.com/history/")
+CLEAR_HISTORY_URL = os.environ.get("CLEAR_HISTORY_URL", "https://horizone-backend-6.onrender.com/clear_history/")
 
 @cl.on_chat_start
 async def start():
