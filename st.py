@@ -4,7 +4,7 @@ import asyncio
 import os
 
 # API Endpoints from environment variables
-API_URL = os.environ.get("API_URL", "https://horizone-backend.onrender.com//query/")
+API_URL = os.environ.get("API_URL", "https://horizone-backend.onrender.com/query/")
 HISTORY_URL = os.environ.get("HISTORY_URL", "https://horizone-backend.onrender.com/history/")
 CLEAR_HISTORY_URL = os.environ.get("CLEAR_HISTORY_URL", "https://horizone-backend.onrender.com/clear_history/")
 
